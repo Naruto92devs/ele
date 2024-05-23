@@ -71,18 +71,18 @@ function App() {
         <div className='content'>
           <div className='box'>
             <img src={token1} alt='logo' className='token1' />
-            <h2>TOKENS</h2>
-            <h2>1 BILLION</h2>
+            {/* <h2>TOKENS</h2>
+            <h2>1 BILLION</h2> */}
           </div>
           <div className='box'>
             <img src={token2} alt='logo' className='token2' />
-            <h2>TAXES</h2>
-            <h2>0 %</h2>
+            {/* <h2>TAXES</h2>
+            <h2>0 %</h2> */}
           </div>
           <div className='box'>
             <img src={token3} alt='logo' className='token3' />
-            <h2>LIQUIDITY</h2>
-            <h2>BURNT</h2>
+            {/* <h2>LIQUIDITY</h2>
+            <h2>BURNT</h2> */}
           </div>
         </div>
       </div>

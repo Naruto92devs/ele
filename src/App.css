@@ -24,8 +24,9 @@ body{
 }
 
 .App {
-  overflow-x: hidden;
+  overflow: hidden;
 }
+
 
 .btn img {
     width: 10vw;
@@ -96,16 +97,16 @@ nav .links a.btn img {
 }
 
 .hero-img {
-    width: 55vw;
+    width: 45vw;
     height: auto;
     padding-top: 5vw;
     animation: bounceInDown 1.2s;
 }
 
 .tremp {
-    width: 40vw;
+    width: 37vw;
     animation: bounceInDown 1s;
-    margin-top: 3vw;
+    margin-top: 12vw;
     margin-left: -2.5vw;
 }
 
@@ -119,7 +120,7 @@ nav .links a.btn img {
 .supply {
     width: 100%;
     height: auto;
-    padding: 0 10vw;
+    padding: 0 15vw;
     position: relative;
     margin-top: -10vw;
 }
@@ -138,8 +139,8 @@ nav .links a.btn img {
 .supply .tremp1 {
     position: absolute;
     width: 18vw;
-    top: 5vw;
-    left: 15vw;
+    top: 1.7vw;
+    left: 20vw;
 }
 
 .supply .left {
@@ -160,16 +161,16 @@ nav .links a.btn img {
 
 .jar {
     position: absolute;
-    width: 12vw;
-    top: -3vw;
-    right: 15vw;
+    width: 9vw;
+    top: -2vw;
+    right: 19vw;
     z-index: 1;
     animation: shakeX 1s infinite;
 }
 
 .tokenomics {
     width: 100%;
-    padding: 5vw 10vw;
+    padding: 5vw 17vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,7 +206,7 @@ nav .links a.btn img {
 
 .tokenomics .content .box {
   width: 33.33%;
-  margin-top: -32vw;
+  margin-top: -26vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,7 +236,7 @@ nav .links a.btn img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vw 10vw;
+    padding: 5vw 15vw;
     position: relative;
 }
 
@@ -248,7 +249,7 @@ nav .links a.btn img {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-top: -40vw;
+    margin-top: -35vw;
     padding: 0 5vw;
 }
 
@@ -301,7 +302,7 @@ nav .links a.btn img {
 
 .map {
     width: 100%;
-    padding: 10vw 15vw;
+    padding: 10vw 17vw;
     position: relative;
 }
 
@@ -313,7 +314,7 @@ nav .links a.btn img {
   position: absolute;
   width: 17vw;
   top: 2vw;
-  left: 4vw;
+  left: 7vw;
 }
 
 .map2 {
@@ -408,7 +409,7 @@ footer .links {
 footer .tremp3 {
     position: absolute;
     width: 25vw;
-    top: -10vw;
+    top: -17vw;
     left: 25vw;
 }
 
@@ -766,6 +767,7 @@ footer {
     align-items: center;
     gap: 1vw;
     margin-top: -20vw;
+    padding-bottom: 4vw;
     position: relative;
     z-index: 100;
     margin-left: 24vw;
